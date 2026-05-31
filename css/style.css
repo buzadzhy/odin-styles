@@ -54,7 +54,7 @@ a, .hero-text, .hero-button {
     padding: 15px 50px;
     gap: 15px;
     /* width: 100%; */
-    align-items: flex-start;
+    align-items: stretch;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -67,9 +67,29 @@ a, .hero-text, .hero-button {
     gap: 15px;
 }
 
+.hero-subsection.hero-picture {
+    align-self: center;
+    /* text-align: center; */
+    /* font-size: 50px; */
+    /* display: flex; */
+    /* justify-content: center; */
+
+    
+}
+
+.hero-image-container {
+    display: flex;
+    justify-content: center;
+}
+
 .hero-subsection img {
     /* flex: 1; */
-    max-width: 100%;
+    /* max-width: 100%; */
+    /* display: block; */
+    object-fit: contain;
+    width: 70%;
+    height: 50%;
+    border-radius: 5px;
 }
 
 .hero-button {
